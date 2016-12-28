@@ -27,6 +27,12 @@ gulp.task('jsmin', function() {
     .pipe(gulp.dest('gulp/JSoutput/'));
 });
 
+gulp.task('jsmin_travis', function() {
+  return gulp.src('assets-js/**/*.js')
+    .pipe($.uglify())
+    .pipe(gulp.dest('assets-js/'));
+});
+
 gulp.task('min-css-noncritical-site', function() {
   return gulp.src('_site/assets/non-critical.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
