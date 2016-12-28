@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>La Case Bio</title>
+    <description>La case Bio, votre magasin biologique de proximité, au 12bis rue Edouard Vaillant, 33230 Coutras, France</description>
+    <link>https://lacasebiocoutras.github.io/lcb03/</link>
+    <atom:link href="https://lacasebiocoutras.github.io/lcb03/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 28 Dec 2016 21:42:54 +0100</pubDate>
+    <lastBuildDate>Wed, 28 Dec 2016 21:42:54 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+  </channel>
+</rss>

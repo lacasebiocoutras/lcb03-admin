@@ -1,0 +1,14 @@
+ { "list" : [
+    {"url":"promotions/index.html",
+    "name":"search-promotions.json"
+    }
+  ],
+  "config" :
+  {
+    "class_invisible_search": "invSearch",
+    "add_delim_categorie_search": "$"
+   }
+
+}
+
+
