@@ -1,5 +1,4 @@
 ---
-
 order: 99
 
 title:  Les produits bio pour la douche et le bain
@@ -18,14 +17,14 @@ carousel:
 
 marque:
 label: 
-tags: 
+tags:
 ---
-
 <!--fin-excerpt-->
 <!-- *********************************** -->
 <!-- **** début contenu détaillé **** -->
 
 Un large choix de produits anti-allergiques, anti peaux sèches,...
+add..
 
 <!-- **** fin contenu détaillé **** -->
 <!-- ********************************* -->
