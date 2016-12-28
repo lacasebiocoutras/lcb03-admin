@@ -16,17 +16,13 @@ carousel:
 
 marque:
 label: 
-tags: 
+tags:
 ---
-
 <!--fin-excerpt-->
 <!-- ******************************** -->
 <!-- **** début contenu détaillé **** -->
 
-
+add text...
 
 <!-- **** fin contenu détaillé **** -->
 <!-- ****************************** -->
-
-
-
