@@ -22,7 +22,7 @@ tags:
 <!-- ******************************** -->
 <!-- **** début contenu détaillé **** -->
 
-un régime sans gluten est un régime alimentaire excluant les aliments à base de gluten, qui est un composé protéique retrouvé dans de nombreux céréales comme le blé, l'orge ou le seigle.Le régime sans gluten est généralement motivé par des affections comme la maladie cœliaque (intolérance au gluten) ou même dans certains cas l'allergie au blé. 
+uun régime sans gluten est un régime alimentaire excluant les aliments à base de gluten, qui est un composé protéique retrouvé dans de nombreux céréales comme le blé, l'orge ou le seigle.Le régime sans gluten est généralement motivé par des affections comme la maladie cœliaque (intolérance au gluten) ou même dans certains cas l'allergie au blé. 
 (source wikipedia)
 Ajout text33
 
