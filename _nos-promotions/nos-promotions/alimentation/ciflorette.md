@@ -1,5 +1,4 @@
 ---
-
 order: 1
 
 title: Ciflorette de Gironde
@@ -17,15 +16,13 @@ carousel:
 
 marque:
 label: 
-tags: 
+tags:
 ---
-
 <!--fin-excerpt-->
 <!-- ******************************** -->
 <!-- **** début contenu détaillé **** -->
 
-
+add text
 
 <!-- **** fin contenu détaillé **** -->
 <!-- ****************************** -->
-
