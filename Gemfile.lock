@@ -81,15 +81,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  autoprefixer-rails
-  breakpoint
-  jekyll
-  jekyll-assets
+  autoprefixer-rails (~> 6.6.1)
+  breakpoint (~> 2.7.1)
+  jekyll (~> 3.3.1)
+  jekyll-assets (~> 2.2.8)
   jekyll-picture-tag!
-  jekyll-sitemap
-  mini_magick
+  jekyll-sitemap (~> 1.0.0)
   stringex (~> 2.6)
-  uglifier
+  uglifier (~> 3.0.4)
 
 BUNDLED WITH
    1.13.7
