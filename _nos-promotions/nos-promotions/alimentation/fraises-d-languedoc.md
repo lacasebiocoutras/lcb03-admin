@@ -1,5 +1,4 @@
 ---
-
 order: 11
 
 title: Fraises du Languedoc
@@ -18,15 +17,13 @@ carousel:
 
 marque:
 label: 
-tags: 
+tags:
 ---
-
 <!--fin-excerpt-->
 <!-- ******************************** -->
 <!-- **** début contenu détaillé **** -->
 
-
+ad
 
 <!-- **** fin contenu détaillé **** -->
 <!-- ****************************** -->
-
