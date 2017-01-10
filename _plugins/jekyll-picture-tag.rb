@@ -49,7 +49,8 @@ module Jekyll
       settings['source'] ||= '.'
       settings['output'] ||= 'generated'
       settings['markup'] ||= 'picturefill'
-
+      settings['url'] ||= url
+  
       # Prevent Jekyll from erasing our generated files
       site.config['keep_files'] << settings['output'] unless site.config['keep_files'].include?(settings['output'])
 
@@ -153,24 +154,24 @@ module Jekyll
         source_tags = ''
         source_keys.each do |source|
           media = " media=\"#{instance[source]['media']}\"" unless source == 'source_default'
-          source_tags += "#{markdown_escape * 4}<source srcset=\"#{url}#{instance[source][:generated_src]}\"#{media}>\n"
+          source_tags += "#{markdown_escape * 4}<source srcset=\"#{settings['url']}#{instance[source][:generated_src]}\"#{media}>\n"
         end
 
         # Note: we can't indent html output because markdown parsers will turn 4 spaces into code blocks
         # Note: Added backslash+space escapes to bypass markdown parsing of indented code below -WD
         picture_tag = "<picture>\n"\
                       "#{source_tags}"\
-                      "#{markdown_escape * 4}<img src=\"#{url}#{instance['source_default'][:generated_src]}\" #{html_attr_string}>\n"\
+                      "#{markdown_escape * 4}<img src=\"#{settings['url']}#{instance['source_default'][:generated_src]}\" #{html_attr_string}>\n"\
                       "#{markdown_escape * 2}</picture>\n"
       elsif settings['markup'] == 'interchange'
 
         interchange_data = Array.new
         source_keys.reverse.each do |source|
-          interchange_data << "[#{url}#{instance[source][:generated_src]}, #{source == 'source_default' ? '(default)' : instance[source]['media']}]"
+          interchange_data << "[#{settings['url']}#{instance[source][:generated_src]}, #{source == 'source_default' ? '(default)' : instance[source]['media']}]"
         end
 
         picture_tag = %Q{<img data-interchange="#{interchange_data.join ', '}" #{html_attr_string} />\n}
-        picture_tag += %Q{<noscript><img src="#{url}#{instance['source_default'][:generated_src]}" #{html_attr_string} /></noscript>}
+        picture_tag += %Q{<noscript><img src="#{settings['url']}#{instance['source_default'][:generated_src]}" #{html_attr_string} /></noscript>}
 
       elsif settings['markup'] == 'img'
         # TODO implement <img srcset/sizes>
